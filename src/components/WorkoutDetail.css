@@ -1,0 +1,70 @@
+p {
+    margin: 0;
+  }
+  
+ 
+  body {
+    font: 1em/1.618 Inter, sans-serif;
+    color: #224;
+    
+  }
+  
+  .card {
+    width: 40vw;
+    right: 20%;
+    position: relative;
+    padding: 20px;
+    backdrop-filter: blur(10px); /* Background blur effect */
+    background: rgba(255, 255, 255, 0.5); /* Semi-transparent background */
+    background-image: url(../../public/Images/glass.webp);
+    background-size:cover;
+    background-position: center;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+  }
+ 
+  
+  
+  .workout-details {
+    background-color: rgba(255, 255, 255, 0.9); /* Pop-out background */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4); /* Pop-out shadow */
+    transform: scale(1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .workout-details:hover {
+    transform: scale(1.05); /* Slight pop-out on hover */
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5); /* Enhanced shadow */
+  }
+  h4{
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+  }
+  p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+  }
+  button {
+    background-color: #007bff; /* Red background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Padding */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  button:hover {
+    background-color: #5055f8; /* Darker red on hover */
+    transform: scale(1.05); /* Slight scale on hover */
+  }
+  
+  button:active {
+    transform: scale(0.95); /* Slight shrink on click */
+  }
+  
+  

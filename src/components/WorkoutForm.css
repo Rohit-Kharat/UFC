@@ -1,0 +1,53 @@
+.create {
+    margin: 0;
+    max-width: 500px;
+    
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  }
+  
+  .create h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    color: #333;
+  }
+  
+  .create label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+.create input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .create button {
+    width: 100%;
+    background-color: #3498db; /* Blue background */
+    color: white; /* White text */
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .create button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+  }
+  
+  .create .error {
+    color: red;
+    margin-top: 10px;
+  }
+  

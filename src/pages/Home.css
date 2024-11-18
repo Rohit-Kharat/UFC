@@ -1,0 +1,113 @@
+.frontDesign{
+    display: flex;
+    justify-content: center;
+   gap: 5vw;
+   background-color: rgb(0, 0, 0);
+   background-image: url(../../public/Images/download.svg);
+    background-size:cover;
+    background-position: center; 
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    
+    background-color: black;
+
+}
+
+.photo1{
+    background-image: url(../../public/Images/landing-home-1b.jpg);
+    background-size:cover;
+    width: 28vw;
+    height: 14vw;
+    margin-top: 17vw;
+    margin-bottom: 10vw;transform: scale(1);
+    transition: transform 0.3s,
+}
+.photo1:hover{
+    transform: scale(1.05);
+}
+.photo2{
+    background-image: url(../../public/Images/landing-home-2b.jpg);
+    background-size:cover;
+    width: 28vw;
+    height: 14vw;
+    transform: scale(1);
+    transition: transform 0.3s,
+}
+.photo2:hover{
+    transform: scale(1.05);
+}
+.photo3{
+    margin-top: 5vw;
+    background-image: url(../../public/Images/landing-home-3a.jpg);
+    background-size:cover;
+    width: 28vw;
+    height: 14vw;
+    margin-bottom: 10vw;
+    transform: scale(1);
+    transition: transform 0.3s,
+}
+.photo3:hover{
+    transform: scale(1.05);
+}
+    .photo4{
+        background-image: url(../../public/Images/landing-home-4.jpg);
+        background-size:cover;
+        width: 28vw;
+        height: 14vw;
+        margin-bottom: 10vw;
+        transform: scale(1);
+    transition: transform 0.3s,
+    }
+    .photo4:hover{
+        transform: scale(1.05);
+    }
+    .photo5{
+        background-image: url(../../public/Images/landing-home-7b.jpg);
+        background-size:cover;
+        width: 28vw;
+        height: 14vw;
+        margin-bottom: 10vw;
+        transform: scale(1);
+    transition: transform 0.3s,
+    }
+    .photo5:hover{
+        transform: scale(1.05);
+    }
+    .photo6{
+        margin-top: 17vw;
+    margin-bottom: 10vw;
+        background-image: url(../../public/Images/landing-home-8.jpg);
+        background-size:cover;
+        width: 28vw;
+        height: 14vw;
+        transform: scale(1);
+    transition: transform 0.3s,
+    }
+    .photo6:hover{
+        transform: scale(1.05);
+    }
+    .photo7{
+        background-image: url(../../public/Images/landing-home-9.jpg);
+        background-size:cover;
+        width: 28vw;
+        height: 14vw;
+        transform: scale(1);
+    transition: transform 0.3s,
+    }
+    .photo7:hover{
+        transform: scale(1.05);
+    }
+    .title{
+        
+        text-align: center;
+        width: 100%;
+        background-color: black;
+        color: white;
+        font-size: 3vw;
+        font-weight: 900;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
